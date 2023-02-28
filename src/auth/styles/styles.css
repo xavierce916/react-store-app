@@ -1,0 +1,17 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.fab {
+    border-radius: 100%;
+    padding: 25px;
+    font-size: 25px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 9999;
+}
